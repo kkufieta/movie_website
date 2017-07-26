@@ -107,7 +107,7 @@ main_page_content = '''
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
           <div class="navbar-header">
-            <a class="navbar-brand" href="#">Fresh Tomatoes Movie Trailers</a>
+            <a class="navbar-brand" href="#">Katharina's Movie Trailers</a>
           </div>
         </div>
       </div>
@@ -124,7 +124,7 @@ main_page_content = '''
 movie_tile_content = '''
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
     <img src="{poster_image_url}" width="220" height="342">
-    <h2>{movie_title}</h2>
+    <h3>{movie_title}</h3>
 </div>
 '''
 
