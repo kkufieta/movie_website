@@ -1,5 +1,5 @@
 # Movie Website
-Note: Source code to generate the Movie website was provided by Udacity.
+Note: Source code to generate the Movie website was provided by Udacity (i.e. `fresh_tomatoes.py`).
 
 ## About
 The movie website is implemented in Python and shows some of my favorite movies and TV Series.
