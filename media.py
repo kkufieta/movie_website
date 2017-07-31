@@ -1,6 +1,6 @@
 class Media():
     """
-    Media class
+    Media class. Saves title, poster image and trailer urls for a media.
     """
     def __init__(self, title, poster_image_url, trailer_youtube_url):
         self.title = title
@@ -10,7 +10,7 @@ class Media():
 
 class Movie(Media):
     """
-    Movie class
+    Movie class. Saves title, poster image and trailer urls for a movie.
     """
     def __init__(self, title, poster_image_url, trailer_youtube_url):
         Media.__init__(self, title, poster_image_url, trailer_youtube_url)
@@ -18,7 +18,8 @@ class Movie(Media):
 
 class TVSeries(Media):
     """
-    TV series class
+    TV Series class. Saves title, poster image and trailer urls
+    for a TV series.
     """
     def __init__(self, title, poster_image_url, trailer_youtube_url):
         Media.__init__(self, title, poster_image_url, trailer_youtube_url)
