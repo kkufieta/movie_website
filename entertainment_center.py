@@ -49,8 +49,12 @@ crazy_ex_girlfriend = media.TVSeries("Crazy Ex Girlfriend",
 
 
 # Movie list
-movies = [unbreakable_kimmy, jane_the_virgin, crazy_ex_girlfriend,
-          bridget_diary, bridget_edge, bridget_baby]
+movies = [unbreakable_kimmy,
+          jane_the_virgin,
+          crazy_ex_girlfriend,
+          bridget_diary,
+          bridget_edge,
+          bridget_baby]
 
 # Create and open movie website
 fresh_tomatoes.open_movies_page(movies)
